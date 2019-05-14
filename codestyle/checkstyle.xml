@@ -28,4 +28,8 @@
         <!--<property name="customImportOrderRules" value="SPECIAL_IMPORTS###THIRD_PARTY_PACKAGE###STANDARD_JAVA_PACKAGE###STATIC"/>-->
         <!--</module>-->
     </module>
+    <module name="RegexpSingleline">
+        <property name="format" value="^\s+\*\s+@author"/>
+        <property name="message" value="Please remove @author tag in javadoc."/>
+    </module>
 </module>
